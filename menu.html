@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="buttons.css">
+    <link rel="stylesheet" href="menu.css">
+
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <!-- LOGO -->
+            <div class="logo">LaTresseNoire</div>
+            <!-- NAVIGATION MENU -->
+            <ul class="nav-links">
+                <!-- USING CHECKBOX HACK -->
+                <input type="checkbox" id="checkbox_toggle" />
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                <!-- NAVIGATION MENUS -->
+                <div class="menu">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="concept.html">About us</a></li>
+                    <li><a href="services.html">Services</a> </li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="Contactus.html">Contact</a></li>
+                </div>
+            </ul>
+        </nav>
+        <!-- Backbuttoon -->
+        <button class="backbutton" onclick="history.back()">Go Back</button>
+
+    </header>
+    <main>
+        <h1 class="menu">Menu</h1>
+        <div class="menudiv">
+            <!-- images -->
+            <img class="mySlides" id="img1" src="Images\1.jpg">
+            <img class="mySlides" id="img2" src="Images\2.jpg">
+        </div>
+    </main>
+    <hr>
+    <footer>
+        <p class="text-center">&copy; LaTresseNoire.com 2022. All rights reserved</p>
+      </footer>
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Grape+Nuts&family=Great+Vibes&display=swap');
+
+
+/* back button */
+
+.backbutton{
+  font-family: 'Grape Nuts', cursive;
+    display: inline-block;
+    border: 3px soild rgb(87, 33, 1);
+    background-color: rgba(255, 139, 6, 0.446);
+    transition: transform 1s;
+    color: white;
+    font-size: 22px;
+    margin-top: 2%;
+    padding: 1% 1% 1% 1%;
+    margin-left: 2%;
+    border-radius: 20%;
+}
+.backbutton:hover{
+    transform: scale(0.5) rotate(2deg);
+}
+/* be a member button */
+.memberbtn{
+  margin-bottom: 5%;
+  font-family: 'Grape Nuts', cursive;
+    position: relative;
+    border:none;
+    border-radius: 5px;
+    transition: 0.4s ease-in;
+    z-index: 1;
+    font-size:25px;
+    height: 50px;
+    width: 200px;
+    background-color: rgb(253, 175, 6);
+    bottom: 0%;
+    vertical-align: bottom;  
+}
+.memberbtn>a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.memberbtn>a:hover{
+color: aliceblue;
+}
+.memberbtn::before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(
+      124deg,
+      #ff7300,
+      #e8861d,
+      #c9a11d,
+      #97948a,
+      #388345,
+      #4d7678,
+      #2016a4,
+      #cb7600,
+      #a8aa0c );
+      background-size: 400%;
+      z-index: -1;
+      filter: blur(5px);
+      animation: move 20s linear infinite;
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+      border-radius: 10px;}
+
+      .memberbtn:hover::before {
+        opacity: 1;
+      }
+      
+      .memberbtn::after {
+        z-index: -1;
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #978626;
+        left: 0;
+        top: 0;
+        border-radius: 10px;
+      }
+      
+      @keyframes move {
+        0% {
+          background-position: 0 0;
+        }
+        50% {
+          background-position: 400% 0;
+        }
+        100% {
+          background-position: 0 0;
+        }
+      }
+/* register button */
+    .registerbtn{
+      font-family: 'Grape Nuts', cursive;
+        background-color: #000000;
+        color: #ffffff;
+        font-style: bold;
+        font-size: 20px;
+        border-radius: 14px;
+        height: 40px;
+        width: 90px;
+        transition: 0,4s ease-in-out;
+    }
+    .registerbtn:hover{
+        background-color:#ff7300;
+        color: black;
+        transform: scale(1.1)
+    }
+    

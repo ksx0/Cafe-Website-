@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be a memver form</title>
+    <link rel="stylesheet" href="buttons.css">
+    <link rel="stylesheet" href="beamember.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <!-- LOGO -->
+            <div class="logo"><img height="25px" src="Images\logo.jpg">LaTresseNoire</div>
+            <!-- NAVIGATION MENU -->
+            <ul class="nav-links">
+                <!-- USING CHECKBOX HACK -->
+                <input type="checkbox" id="checkbox_toggle" />
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                <!-- NAVIGATION MENUS -->
+                <div class="menu">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="concept.html">About us</a></li>
+                    <li><a href="services.html">Services</a> </li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="Contactus.html">Contact</a></li>
+                </div>
+            </ul>
+        </nav>
+        <!-- Backbuttoon -->
+        <button class="backbutton" onclick="history.back()">Go Back</button>
+    </header>
+    <main>
+        <div class="mainform"></div>
+        <form action="action.html">
+            <p>Please register youself here to be a member and avail discounts and offers</p>
+            <p>Also get various updates about us.</p>
+            <hr>
+            <label for="title"><b>TITLE</b></label>
+            <input type="text" placeholder="Mr/Mrs/Ms/Master/Dr" name="title" id="title" required> <br>
+            <br>
+            <label for="name"><b>NAME</b></label>
+            <input type="text" placeholder="Enter Name" name="name" id="name" required> <br>
+            <br>
+            <label for="number"><b>PHONE NUMBER</b></label>
+            <input type="tel" placeholder="Enter Phone Number" name="number" id="number" required> <br>
+            <br>
+            <label for="email"><b>EMAIL</b></label>
+            <input type="text" placeholder="Enter Email" name="email" id="email" required> <br>
+            <br>
+            <label for="date of birth"><b>DATE OF BIRTH</b></label>
+            <input type="date" placeholder="Enter DOB" name="date of birth" id="date of birth" required> <br>
+            <br>
+            <label for="occupation"><b>OCCUPATION</b></label>
+            <input type="text" placeholder="Occupation" name="occupation" id="occuption" required>
+            <hr>
+            <br>
+            <br>
+            <div class="radiobtn">
+                <p>MEMBERSHIP PLANS</p>
+                <br>
+                <input type="radio" value="Monthly" name="mbcform"> <label><b>Monthly</b></label><br>
+                <input type="radio" value="Quaterly" name="mbcform"> <label><b>Quaterly</b></label><br>
+                <input type="radio" value="6 Months" name="mbcform"><label><b>6 months</b></label><br>
+                <input type="radio" value="Yealry" name="mbcform"><label><b>Yealry</b></label><br>
+            </div>
+            <div class="tnc">
+                <p>Fill out the form and the payment link will be forwarded to you through the registered mail. </p>
+                <label for="terms and conditions">By creating an account you agree to our <a href="tnc.html">Terms & Conditions
+                </label><input type="checkbox">
+                </label>
+                <br>
+                <br>
+                <button type="submit" class="registerbtn">Register</button>
+            </div>
+        </form>
+        </div>
+    </main>
+    <hr>
+    <footer>
+      <p class="text-center">&copy; LaTresseNoire.com 2022. All rights reserved</p>
+    </footer>
+  
+</body>
+
+</html>

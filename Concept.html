@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="aboutus.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="buttons.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <!-- LOGO -->
+            <div class="logo"><img height="25px" src="Images\logo.jpg">LaTresseNoire</div>
+            <!-- NAVIGATION MENU -->
+            <ul class="nav-links">
+                <!-- USING CHECKBOX HACK -->
+                <input type="checkbox" id="checkbox_toggle" />
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                <!-- NAVIGATION MENUS -->
+                <div class="menu">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="concept.html">About us</a></li>
+                    <li><a href="services.html">Services</a> </li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="Contactus.html">Contact</a></li>
+                </div>
+            </ul>
+        </nav>
+        <!-- Backbuttoon -->
+        <button class="backbutton" onclick="history.back()">Go Back</button>
+
+    </header>
+    <main>
+        <h1 class="text" id="about-heading">
+            The brewing story
+        </h1>
+        <div class="div1">
+            <!-- about us -->
+            <p class="text  div1" id="story">In 2020, during the unending quarantine, Bidisha Ghosh had an idea while
+                reading Maya Angelou's I Know Why The Caged Bird Sings in her English online class and started
+                reminiscing about having coffee with friends and talking with them about the things they're the most
+                passionate about. Katyayni and Bidisha have been bookworms for as long as they can remember and so they
+                decided to save up all they earned from working tirelessly and opened up their dream of a cafe library.
+                They realized that the immersive culture around coffee in Delhi stood in stark contrast to the
+                transactional nature of big chain coffee places that feel pretentious and classist. The communal vibe
+                and celebratory nature of coffee culture were something that inspired them to share this experience with
+                others. So they did.
+
+            </p>
+            <!-- video from youtube -->
+            <section class="video">
+                <iframe width="660" height="452" src="https://www.youtube.com/embed/Nu8kIIL-CDA"
+                    title="YouTube video player" frameborder="4"
+                    allow=" autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </section>
+        </div>
+        <!-- team member details -->
+        <h1 class="text" id="teamheading">Our Team</h1>
+        <div class="div2">
+            <div class="mimg1 tmimg">
+                <img src="Images\me.JPG" alt="Katyayni" class="pink" width="40%">
+                <h2>Katyayni Srivastava</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Officia unde amet autem molestiae numquam
+                    adipisci?</p>
+            </div>
+            <div class="mimg2 tmimg">
+                <img src="Images\bidisha.JPG" alt="Bidisha" class="pink"  width="40%">
+                <h2>Bidisha Gosh</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Officia unde amet autem molestiae numquam
+                    adipisci?</p>
+            </div>
+            <div class="mimg3 tmimg">
+                <img src="Images\gunjan.JPG" alt="Gunjan"  class="pink"  width="40%">
+                <h2>Gunjan Khafalia</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Officia unde amet autem molestiae numquam
+                    adipisci?</p>
+            </div>
+        </div>
+    </main>
+    <hr>
+    <footer>
+      <p class="text-center">&copy; LaTresseNoire.com 2022. All rights reserved</p>
+    </footer>
+  
+</body>
+
+</html>

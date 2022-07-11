@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,300&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0%;
+}
+
+/* all items with class text */
+.text {
+    color: white;
+}
+
+/* all H1 */
+h1 {
+    text-align: center;
+  font-size: 60px;
+}
+
+.div1 {
+    display: grid;
+    grid-template-columns: auto auto;
+
+
+}
+
+p#story {
+
+    font-family: 'Source Serif Pro', serif;
+    border: 5px solid rgb(98, 39, 0);
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    margin-left: 25px;
+    width: 500px;
+    transition: transform 0.2s;
+    background-color: rgba(255, 255, 255, 0.708);
+    font-size: 22px;
+}
+
+p#story:hover {
+    color: aliceblue;
+    background-color: black;
+    border: 6px dashed rgba(162, 110, 19, 0.802);
+    box-shadow: 0 0 2px rgb(235, 174, 89), 0 0 20px rgb(228, 166, 66);
+    transform: scale(1.1);
+}
+
+
+
+#about-heading {
+    margin-bottom: 25px;
+}
+
+section.video {
+    margin-right: 25px;
+}
+
+/* cards */
+#teamheading{
+    padding-top: 10%;
+    padding-bottom:5%;
+}
+.div2{
+    display: inline-block;
+    display: flex;
+
+}
+.tmimg{
+    font-family: 'Source Serif Pro', serif;
+background-color: white;
+border: 3px solid black;
+transform: transform 0.2s ease in;
+border-radius: 10px;
+margin-bottom: 12%;
+margin-left: 10%;
+margin-right: 10%;
+}
+.tmimg:hover{
+transform: scale(1.5);
+color: white;
+background-color: rgba(0, 0, 0, 0.549);
+box-shadow: 0 0 2px rgb(213, 208, 202), 0 0 20px rgb(200, 185, 161);
+}
+.pink{
+    text-align: center;
+    border-radius: 5px;
+}

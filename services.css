@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+}
+.div3{
+    padding-top: 4%;
+    padding-left: 20%;
+}
+/* styling table */
+table{
+    table-layout: fixed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 80%;
+    font-size: 30px;
+    height: 40vh;
+    border-collapse: collapse;
+    color: aliceblue;
+    background-color: rgba(134, 37, 13, 0.369);
+    border: 2px solid rgb(36, 11, 2);
+}
+.thead{
+    font-family: 'Source Serif Pro', serif;
+    background-color: rgba(0, 0, 0, 0.429);
+}
+.td{
+    font-family: 'Source Serif Pro', serif;
+    background-color: rgba(0, 0, 0, 0.429);
+}
+td{
+    font-family: 'Source Serif Pro', serif;
+    background-color: rgba(228, 160, 14, 0.363);
+    font-size: 20px;
+}
+.tbody{
+    font-family: 'Source Serif Pro', serif;
+    text-align: center;
+}
+.div4{
+    font-family: 'Source Serif Pro', serif;
+    text-align: center;
+    padding-top: 5%;
+}

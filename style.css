@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,300&display=swap');
+
+
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Great Vibes', cursive;
+    min-height: 100vh;
+    background-color: rgba(113, 66, 22, 0.777);
+    background-position: center;
+    background-image: url(https://images.unsplash.com/photo-1497515114629-f71d768fd07c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1184&q=80);
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* Nav bar styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(130, 49, 11, 0.426);
+    color: rgb(255, 255, 255)
+}
+
+.nav-links a {
+    color: #fff;
+}
+
+/* logo */
+.logo {
+    font-size: 30px;
+    color: white;
+}
+
+/* navbar menu */
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 10px;
+}
+
+.menu li:hover {
+    background-color: #db9f4b;
+    color: black;
+
+}
+
+.menu li {
+    padding: 5px 14px;
+    font-size: 20px;
+
+    ;
+}
+
+
+/*RESPONSIVE NAVBAR MENU STARTS*/
+/* CHECKBOX HACK */
+input[type=checkbox] {
+    display: none;
+}
+
+/*HAMBURGER MENU*/
+.hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+
+/* APPLYING MEDIA QUERIES */
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+        position: absolute;
+        background-color: rgba(162, 94, 42, 0.764);
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 16px 0;
+    }
+
+    .menu li:hover {
+        display: inline-block;
+        background-color: #6f451e;
+        transition: 0.3s ease;
+    }
+
+    .menu li+li {
+        margin-top: 12px;
+    }
+
+    input[type=checkbox]:checked~.menu {
+        display: block;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
+
+main.home {
+    border-top: 4px solid #6f451e;
+    border-left: 4px solid #6f451e;
+    border-radius: 5px;
+    margin: 10% 20% 10% 25%;
+    display: inline-block;
+    background-color: #6f451e58;
+    height: 100%;
+}
+
+.text {
+    color: white;
+    font-family: 'Great Vibes', cursive;
+
+}
+
+#Tname {
+    padding-top: 24px;
+    margin-top: 24px;
+    text-align: center;
+
+    font-size: 25px;
+}
+
+#slogan {
+
+    text-align: center;
+    font-size: 120px;
+    font-family: 'Fleur De Leah', cursive;
+    padding-top: 100px;
+}
+
+#welcome-line {
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 60px;
+    padding-left: 50px;
+}
+
+/* footer */
+footer {
+    padding-top: 1%;
+    font-family: 'Source Serif Pro', serif;
+    display: Grid;
+    color: white;
+    background-color: #343230;
+    position: relative;
+    min-height: 4vh;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
